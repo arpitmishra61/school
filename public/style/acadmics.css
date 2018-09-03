@@ -1,0 +1,40 @@
+
+  
+
+
+
+.navShowcase{
+ background-image: url('/imagesAcadmeics/nav.jpeg') ;
+
+}
+
+.navHeadingContainer{
+  background-color: rgba(30, 144, 255,0.5);
+}
+
+
+.ciriculam ,.foundation p{
+  line-height: 1.7em;
+  word-spacing: 0.15em;
+  word-wrap:break-word !important;
+}
+
+
+
+.mainCard{
+  background-color: rgba(0, 0, 0, 0.596);
+
+}
+.altCard{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.heading{
+  border-left: 10px solid tomato;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.596);
+ margin-bottom:17px;
+}
+.altheading{
+  background-color: rgba(44, 203, 243, 0.493);
+  color:white;
+}

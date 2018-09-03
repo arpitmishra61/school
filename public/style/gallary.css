@@ -1,0 +1,54 @@
+body{
+  background-image: url('/gallaryThumbnails/background2.jpg');
+  
+  background-size: cover;
+}
+.navShowcase{
+  background-image: url('../../images/gallary.jpeg') ;
+ 
+ }
+ 
+ .navHeadingContainer{
+   background-color: rgba(224, 77, 51, 0.342) !important;
+  
+ }
+
+
+ .gallaryBg{padding:0;
+  margin-top:100px !important;
+   
+   background-color: rgba(26, 27, 27, 0.834) !important;
+ 
+ }
+
+img{text-align: center;
+  cursor: pointer;
+  width:100%;
+  height:100%;
+  padding:0 !important;
+  margin:0!important;
+ }
+
+ .grid{top:0;
+   position: absolute;
+   background-color: rgba(63, 176, 233, 0.281);
+   height:100%;
+   width:94%;
+   color:white;
+   cursor: pointer;
+   
+ }
+ .grid h1{
+   margin-top:80px;
+ }
+.unique{
+  padding:0 !important;
+  margin:0!important;
+}
+ .row2 .grid{
+  width:96%;
+
+ }
+ 
+
+

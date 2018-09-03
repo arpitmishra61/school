@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "an school app",
+  "main": "school.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arpit",
+  "license": "ISC"
+}

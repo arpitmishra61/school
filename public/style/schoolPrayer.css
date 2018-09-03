@@ -1,0 +1,40 @@
+body{
+  background-image: url('../../images/school.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.navShowcase{
+  background-image: url('../../imagesAcadmeics/nav.jpeg') ;
+ 
+ }
+ 
+ .navHeadingContainer{
+   background-color: rgba(30, 144, 255,0.5) !important;
+ }
+
+ .card{
+  
+   background-position-y: -320px;
+   background-color: rgba(255, 255, 255, 0.97)
+ }
+.na{
+  background-image:url('../campus/flag.jpg')  !important;
+}
+ .prayer{
+  background-image:url('../campus/prayer.jpg')  !important;
+  background-position-y: -320px;
+  background-size: cover;
+ }
+ .sp{color:white;
+   background-color: rgba(24, 22, 22,0.8) !important;
+ }
+
+ .np a{
+   font-size: 30px;
+ }
+
+ i{
+   color:grey;
+ }

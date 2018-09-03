@@ -1,0 +1,20 @@
+
+
+.navShowcase{
+  background-image: url('/acadmics/images/admission1.jpg') ;
+ 
+ }
+ 
+ .navHeadingContainer{
+   background-color: rgba(30, 144, 255,0.5) !important;
+ }
+
+ .card{
+   background-color:rgba(255, 255, 255,0.89) !important;
+ }
+
+ i{
+   color:grey;
+ }
+
+ 

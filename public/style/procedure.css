@@ -1,0 +1,28 @@
+body{
+  background-image: url('../imagesAcadmeics/books.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.navShowcase{
+  background-image: url('../imagesAcadmeics/admission1.jpg') ;
+ 
+ }
+ 
+ .navHeadingContainer{
+   background-color: rgba(35, 155, 235, 0.651) !important;
+ }
+
+ .card{
+   background-color:rgba(255, 255, 255,0.99) !important;
+ }
+ .heading{
+  background-color: rgba(26, 24, 24, 0.678) !important;
+  margin-top:15px;
+  border-left:10px solid tomato;
+ 
+}
+.heading h1{
+  color:white;
+}

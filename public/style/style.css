@@ -1,0 +1,167 @@
+body{
+  overflow-x: hidden;
+  background-color: rgb(231, 226, 226);
+  background-image: url('../imagesAcadmeics/books.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;height:100%;
+  
+  
+}
+
+
+.mainNav{
+  height:100px;
+  background-color: rgba(82, 80, 235, 0.959);
+}
+
+.mainNav a{ 
+  font-family: 'Uncial Antiqua', cursive;
+  word-spacing:0.21em; 
+  font-size: 30px !important;
+  font-weight: bold;
+  text-decoration:none;
+  color:white;
+}
+.altNav{
+  background-color: rgba(202, 65, 65, 0.997) !important;
+  height:50px;
+  padding:20px;
+}
+.altNav i{
+  color:rgba(255, 255, 255, 0.76)
+}
+.altNav i{
+  display: inline !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+  color:#5be948fd
+}
+.altNav a{
+  color:white !important;
+}
+
+
+.altNav .dropdown-menu{
+  background-color: rgba(56, 53, 53, 0.808)
+}
+.altNav .dropdown-menu .a{
+  color:white !important;
+}
+
+.altNav .dropdown-menu a:hover{
+  background-color: rgb(238, 90, 90);
+  
+
+}
+
+.altNav li:hover{
+  background-color:rgb(90, 90, 90) !important;
+
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  
+  transition-duration: 2s;
+}
+.dropdown-divider{
+  color:rgb(146, 146, 146) !important;
+  background-color:rgb(146, 146, 146) !important;
+}
+.aboutus{
+  background-image: url('../images/aboutus.jpg');
+  font-size:25px;
+  line-height: 1.7em;
+  word-spacing: 0.2em;
+  word-wrap:break-word;
+  padding:0 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.aboutus .section{margin:0!important;
+  
+  background-color: rgba(0, 0, 0, 0.692) !important;
+}
+
+.achievments{
+  background-image: url('/images/collage/library.jpeg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+}
+
+.dmsg{
+background-image: url('../images/message.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.dmsg p{
+  font-size:30px;
+}
+
+.achievments .section{
+  background-color: rgba(7, 129, 228, 0.822) !important;
+  
+  color: white;
+}
+
+.announcments{
+  background-color: rgba(143, 207, 245, 0.075);
+}
+.announcments .col{
+  margin-right:4px !important;
+}
+
+
+.fcontent{
+ margin-top:100px !important;
+  width:100%;
+  margin:auto;
+  
+  
+  
+}
+
+.fcontent a{
+  text-transform: capitalize;
+padding-left:20px! important;
+text-decoration: none; 
+  color:white !important;
+  font-size:20px;
+}
+
+.fcontent .col{
+  background-color: rgba(53, 66, 252, 0.911)!important;
+  padding-left:30px;
+margin:0 !important;
+border-right:2px solid blue;
+}
+
+
+.fcontent .col h4{
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 20px;
+  
+  
+}
+
+.fcontent .col i{
+ color:rgba(235, 173, 102, 0.87);
+ padding-left:5px;
+}
+.fcontent img{
+  width:25%;
+ margin-right:20px;
+}
+ footer{
+   height:70px !important;
+   background-color:rgba(190, 67, 67, 0.925);
+ }
+  

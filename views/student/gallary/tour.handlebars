@@ -1,0 +1,88 @@
+
+<link rel="stylesheet" href="/style/style.css">
+<link rel="stylesheet" href="/style/slide.css">
+
+<div class="navShowcase">
+<div class="navHeadingContainer pb-0.9">
+    
+<h1 class="display-1 container text-white text-center">
+ Gallary
+</h1>
+</div>
+</div>
+<br><br>
+<div class="card card-body slidescreen container">
+<div class="div mainScreen ">
+    <h1 class="text-white">Class Rooms</h1>
+<img src="/campus/class.jpeg" alt="">
+
+</div>
+<br><br><br>
+    <div class="row ">
+        <div class="col-lg-3 col-md-6">
+            <div class="card  text-white " onmouseover="change(0)" onmouseout="achange(0)">
+             <img src="/campus/class.jpeg" alt="" class="card-img-top" onclick="display(src)" >
+             <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5></div>
+    
+            </div>
+             </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card  text-white " onmouseover="change(1)" onmouseout="achange(1)">
+             <img src="/campus/library.jpeg" alt="" class="card-img-top" onclick="display(src)" >
+             <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5></div>
+    
+  </div>
+             </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card  text-white " onmouseover="change(2)" onmouseout="achange(2)">
+             <img src="/campus/computerLab.jpeg" alt="" class="card-img-top" onclick="display(src)" >
+             <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5></div>
+    
+  </div>
+             </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="card  text-white " onmouseover="change(3)" onmouseout="achange(3)">
+             <img src="/campus/playground.jpeg" alt="" class="card-img-top" onclick="display(src)" >
+             <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5></div>
+    
+  </div>
+             </div>
+
+    </div>
+
+
+
+<hr>
+</div>
+<script>
+
+var mainScreen=document.querySelector('.mainScreen');
+var cardImage=document.querySelectorAll('.card-img-top')
+console.log(cardImage)
+
+function display(s)
+{mainScreen.children[0].src=s;
+
+}
+
+function change(no)
+{
+cardImage[no].style.transform='scale(1.07,1.07)';
+
+cardImage[no].style.transitionDuration="0.5s"
+
+}
+function achange(no)
+{cardImage[no].style.transform='scale(1.0,1.0)';
+
+cardImage[no].style.transitionDuration="0.5s"
+
+}
+
+</script>
