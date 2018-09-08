@@ -1,7 +1,29 @@
 
   
+.choiceBar li{
+  
+  background-color: rgba(87, 85, 85,0.8);
+  color:white !important;
+  margin-right: 20px;
+}
+.choiceBar li a{
+  color:white !important;
 
+}
+.choiceBar {
+  background-color: rgba(233, 66, 66, 0.932) !important;
+  
+  
+}
+.navigation{
+  position: sticky;
+  top:0;
+}
 
+.active{
+  background-color: rgba(37, 37, 37, 0.9);
+
+}
 
 .navShowcase{
  background-image: url('/imagesAcadmeics/nav.jpeg') ;
@@ -13,12 +35,9 @@
 }
 
 
-.ciriculam ,.foundation p{
-  line-height: 1.7em;
-  word-spacing: 0.15em;
-  word-wrap:break-word !important;
+.ciriculam ,.foundation, .altCard p{
+  font-size:24px;
 }
-
 
 
 .mainCard{
@@ -29,7 +48,7 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 .heading{
-  border-left: 10px solid tomato;
+  border-left: 10px solid rgba(252, 57, 57, 0.87);
   color:white;
   background-color: rgba(0, 0, 0, 0.596);
  margin-bottom:17px;
@@ -38,3 +57,5 @@
   background-color: rgba(44, 203, 243, 0.493);
   color:white;
 }
+h4{
+  font-weight: 400 !important;}

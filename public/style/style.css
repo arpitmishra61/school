@@ -14,7 +14,7 @@ body{
   background-color: rgba(82, 80, 235, 0.959);
 }
 
-.mainNav a{ 
+.mainNav .logo{ 
   font-family: 'Uncial Antiqua', cursive;
   word-spacing:0.21em; 
   font-size: 30px !important;
@@ -26,34 +26,39 @@ body{
   background-color: rgba(202, 65, 65, 0.997) !important;
   height:50px;
   padding:20px;
+  margin-top:100px;
 }
-.altNav i{
-  color:rgba(255, 255, 255, 0.76)
-}
-.altNav i{
+.altNav i, .mainNav i{
+  color:rgba(255, 255, 255, 0.76);
   display: inline !important;
+}
+.altNav i{
+  
 }
 .carousel-inner img{
   width: 100%;
   height: 100%;
   color:#5be948fd
 }
-.altNav a{
+.altNav a, .mainNav a{
   color:white !important;
 }
 
 
-.altNav .dropdown-menu{
+.altNav .dropdown-menu, .mainNav .dropdown-menu{
   background-color: rgba(56, 53, 53, 0.808)
 }
-.altNav .dropdown-menu .a{
+.altNav .dropdown-menu .a, .mainNav .dropdown-menu .a{
   color:white !important;
 }
 
 .altNav .dropdown-menu a:hover{
   background-color: rgb(238, 90, 90);
-  
 
+}
+
+.mainNav .dropdown-menu a:hover{
+  background-color: rgb(73, 97, 236);
 }
 
 .altNav li:hover{
@@ -71,9 +76,8 @@ body{
 }
 .aboutus{
   background-image: url('../images/aboutus.jpg');
-  font-size:25px;
-  line-height: 1.7em;
-  word-spacing: 0.2em;
+  font-size:30px;
+  
   word-wrap:break-word;
   padding:0 !important;
   background-repeat: no-repeat;
@@ -161,7 +165,7 @@ border-right:2px solid blue;
  margin-right:20px;
 }
  footer{
-   height:70px !important;
+   
    background-color:rgba(190, 67, 67, 0.925);
  }
   
