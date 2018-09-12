@@ -165,7 +165,13 @@ border-right:2px solid blue;
  margin-right:20px;
 }
  footer{
+   height:70px;
+   
    
    background-color:rgba(190, 67, 67, 0.925);
+ }
+ footer {
+   padding-top:30px;
+
  }
   
